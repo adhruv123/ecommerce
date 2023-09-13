@@ -35,7 +35,7 @@ process.on("unhandledRejection",(err)=>{
     console.log(`Error:${err.message}`);
     console.log(`Shutting down the server due to  unhandled promise Rejection`);
 
-    server.close(()=>{
+    server.close(()=>{ 
         process.exit(1);
     });
 });

@@ -89,7 +89,7 @@ userSchema.methods.getResetPasswordToken=function()
     return resetToken;
 
 
-}
+};
 
 
 
